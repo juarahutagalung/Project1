@@ -1,0 +1,172 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <title>FORM PENDAFTARAN</title>
+  <style>
+    body {
+      background-color: slategray;
+    }
+
+    .pembatas {
+      margin: 16px 200px 20px 200px;
+      border: 5px solid rgb(121, 115, 115);
+      padding: 20px;
+      /* flex-wrap: wrap; */
+      /* background-image: url(gambar/FOTO.JPG); */
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="pembatas">
+    <form>
+
+      <div class="col-sm-12" style="text-align:center">
+        <h1>FORM PENDAFTARAN</h1><br>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 col-form-label">No Pendaftaran</label>
+        <div class="col-sm-9">
+          <input type="number" class="form-control" placeholder="Masukan no Pendaftaran" required>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="exampleFormControlSelect1" class="col-sm-3 col-form-label">Prodi Yang Diambil</label>
+        <div class="col-sm-9">
+          <label for="exampleFormControlSelect1"></label>
+          <select class="form-control" id="exampleFormControlSelect1" required>
+            <option>Pilih Jurusan</option>
+            <option>Ilmu Komputer</option>
+            <option>Informatika</option>
+            <option>Sistem Informasi</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Nama Calon Mahasiswa</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" placeholder="Masukan Nama" required>
+        </div>
+      </div>
+
+      <fieldset class="form-group">
+        <div class="row">
+          <div class="col-sm-3 pt-0 col-form-label">Jenis Kelamin</div>
+          <div class="col-sm-9">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" required>
+              <label class="form-check-label" for="gridRadios1">
+                Laki-Laki
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" required>
+              <label class="form-check-label" for="gridRadios2">
+                Perempuan
+              </label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Tempat Lahir</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" placeholder="Tempat Lahir" required>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Tanggal Lahir</label>
+        <div class="col-sm-9">
+          <input type="date" class="form-control">
+        </div>
+      </div>
+
+
+      <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-3 col-form-label">Email</label>
+        <div class="col-sm-9">
+          <input type="email" class="form-control" id="inputEmail3" placeholder="example@mail.com" required>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-3 col-form-label">Password</label>
+        <div class="col-sm-9">
+          <input type="password" class="form-control" id="inputPassword3" placeholder="Masukan Password" required>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-3 col-form-label">No Handphone</label>
+        <div class="col-sm-9">
+          <input type="number" class="form-control" placeholder="Masukan No Handphone" required>
+        </div>
+      </div>
+
+      <fieldset class="form-group row">
+        <div class="col-sm-3">Hobi</div>
+        <div class="col-sm-9">
+          <div class="form-check">
+            <input class="form-check-input " type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Renang
+            </label><br>
+            <input class="form-check-input" type="checkbox" id="gridCheck2">
+            <label class="form-check-label" for="gridCheck2">
+              Badminton
+            </label><br>
+            <input class="form-check-input" type="checkbox" id="gridCheck3">
+            <label class="form-check-label" for="gridCheck3">
+              Sepakbola
+            </label>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="form-group">
+        <label for="exampleFormControlFile1">Masukkan file foto anda</label>
+        <input type="file" class="form-control-file " id="exampleFormControlFile1" required>
+        <!-- <img src="gambar/FOTO.JPG" alt="" class="img-thumbnail"> -->
+      </div>
+
+      <div class="col-sm-12" style="text-align:center;">
+        <label for="syarat">Saya menyatakan setuju dengan persyatatannya </label>
+        <input type="checkbox" id="syarat" required>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-sm-12" style="text-align:center;">
+          <button type="submit" class="btn btn-primary">
+            <h1>Daftar</h1>
+          </button>
+        </div>
+      </div>
+
+      <div class="col-sm-12" style="text-align: center;">Perut anda lapar ? Klik<a
+          href="file:///D:/BELAJAR/Belajar%20HTML/Project1/Produk.html"> Disini</a></div>
+
+
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
